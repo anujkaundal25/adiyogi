@@ -16,10 +16,9 @@
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #e9edf5;
-  --title-font: "Montserrat", sans-serif;
+  --title-font: "Cinzel", sans-serif;
   --body-font: "Inter", sans-serif;
-  /* --style-font: "Montez", cursive; */
-  --style-font: "Cinzel", serif;
+  --style-font: "Cinzel Decorative", serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1320px;
   --container-gutters: 24px;
@@ -33,7 +32,6 @@ html,
 body {
   scroll-behavior: auto !important;
 }
-
 .wp-button {
   margin-top: 14px;
 }
@@ -99,7 +97,17 @@ body {
   height: 20px;
   display: block;
 }
-
+body {
+    font-family: "Cinzel Decorative", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cinzel", serif;
+}
 .my-floatp {
   display: none;
 }
@@ -3194,7 +3202,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .sub-title {
   display: block;
   color: var(--title-color);
-  font-size: 40px;
+  font-size: 20px;
   line-height: 40px;
   font-weight: 400;
   font-family: var(--style-font);
